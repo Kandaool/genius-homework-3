@@ -1,7 +1,9 @@
 html{
   scroll-behavior: smooth;
 }
-
+ul{
+  padding-inline-start: 0;
+}
 /*#header*/
 :root {
   --color-primary-dark: #011c44;
@@ -247,11 +249,7 @@ span {
   width: 715px;
   text-align: left;
 }
-.vector_why {
-  background-size: cover;
-  width: max-content;
-  flex-shrink: 0;
-}
+
 
 .container_about p {
   font-family: 'Roboto', sans-serif;
@@ -314,19 +312,25 @@ span {
   right: 155px;
   animation: stars-animation 3s  infinite linear ;
 }
-.why_container {
-  background-image: url(images/background_why.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
+body{
+  
+}
+#why{
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  padding-top: 50px;
+}
+
+.why_container {
+background-image: url(images/background_why.svg);
+background-size: cover;
+background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 200px;
   gap: 8px;
-  /* height: 1510px; */
-  height: 950px;
-  /* flex-basis: 2000px; */
 }
 
 .h2_why {
@@ -377,6 +381,12 @@ span {
 svg {
   position: absolute;
 }
+#procedures{
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 80px;
+}
 .container_procedures {
   display: flex;
   flex-direction: column;
@@ -390,7 +400,7 @@ svg {
 }
 .procedure_name{
   width: 280px;
-  height: 100%;
+  height: 80%;
   font-family: 'Roboto',sans-serif;
   font-weight: 400;
   font-size: 20px;
@@ -399,6 +409,7 @@ svg {
   color: transparent;
   display: flex;
   justify-content: center;
+  
 }
 .procedure_name:hover {
   transition: color 1s  ;
@@ -411,8 +422,8 @@ svg {
 .procedure_1 {
   display: flex;
   align-items: flex-end;
-  width: 320px;
-  height: 430px;
+  width: 344px;
+  height: 456px;
   background-image: linear-gradient(
       180deg,
       rgba(1, 28, 68, 0) 48.53%,
@@ -424,6 +435,10 @@ svg {
   background-repeat: no-repeat;
   background-size: cover;
   transition: .3s;
+  padding-bottom: 20px;
+    /* align-content: flex-end; */
+    align-items: flex-end;
+    justify-content: center;
 }
 .procedure_1:hover{
 transform: scale(1.05);
@@ -431,8 +446,8 @@ border-radius: 120px 120px 120px ;
 }
 .procedure_2 {
   display: flex;
-  width: 320px;
-  height: 430px;
+  width: 344px;
+  height: 456px;
   background-image: linear-gradient(
       180deg,
       rgba(1, 28, 68, 0) 48.53%,
@@ -444,6 +459,10 @@ border-radius: 120px 120px 120px ;
   background-repeat: no-repeat;
   background-size: cover;
   transition: .3s;
+  padding-bottom: 20px;
+    /* align-content: flex-end; */
+    align-items: flex-end;
+justify-content: center;
 
 }
 .procedure_2:hover{
@@ -452,8 +471,8 @@ border-radius: 120px 120px 120px ;
   }
 .procedure_3 {
   display: flex;
-  width: 320px;
-  height: 430px;
+  width: 344px;
+  height: 455px;
   background-image: linear-gradient(
       180deg,
       rgba(1, 28, 68, 0) 48.53%,
@@ -465,6 +484,10 @@ border-radius: 120px 120px 120px ;
   background-repeat: no-repeat;
   background-size: cover;
   transition: .3s;
+  padding-bottom: 20px;
+    /* align-content: flex-end; */
+    align-items: flex-end;
+    justify-content: center;
 
 }
 .procedure_3:hover{
@@ -730,8 +753,15 @@ footer {
   position: absolute;
   top: 40px;
   right: 40px;
+  background-image: url(images/icon/icon-x.svg);
+  background-repeat: no-repeat;
+  height: 40px;
+  width: 40px;
+  background-color: transparent;
+  border: none;
 
 }
+
 .text-modal{
   display: flex;
 /* padding-top: 40px ; */
