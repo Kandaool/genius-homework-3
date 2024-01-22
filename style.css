@@ -234,7 +234,7 @@ span {
   align-items: center;
   flex-grow: 1;
 }
-.about_paragraphs:last-child{
+.about_paragraphs:last-child {
   margin-bottom: 0px;
 }
 .reborn {
@@ -258,7 +258,7 @@ span {
   line-height: 38px;
   width: 710px;
 }
-.container_about p:last-child{
+.container_about p:last-child {
   margin-bottom: 0px;
 }
 .images_about {
@@ -276,7 +276,7 @@ span {
   display: flex;
   justify-content: center;
 }
-.after_img_container{
+.after_img_container {
   position: relative;
 }
 .images_about img {
@@ -308,15 +308,14 @@ span {
   animation: stars-animation 4s infinite linear;
 }
 .star-1 {
-  
   animation: stars-animation 3s infinite linear;
 }
-.before_2{
+.before_2 {
   display: flex;
   flex-grow: 1;
   justify-content: space-evenly;
 }
-.before_2 .star-1{
+.before_2 .star-1 {
   align-self: flex-end;
 }
 body {
@@ -362,11 +361,10 @@ body {
   justify-content: center;
   align-items: center;
   border-radius: 32px;
-  background: #FFF;
+  background: #fff;
   box-shadow: 0px 4px 4px 0px rgba(168, 198, 245, 0.38);
   font-size: 18px;
   line-height: 24px;
-
 }
 .why_article p {
   width: 260px;
@@ -378,9 +376,7 @@ body {
 .why_paragraps {
   display: flex;
   gap: 56px;
-  
 }
-
 
 #procedures {
   padding-top: 100px;
@@ -389,10 +385,9 @@ body {
   padding-bottom: 80px;
   align-items: center;
 }
-.procedure_title{
+.procedure_title {
   font-size: 64px;
-font-family: 'Play', sans-serif;
-
+  font-family: 'Play', sans-serif;
 }
 .container_procedures {
   display: flex;
@@ -708,7 +703,7 @@ footer {
   gap: 25px;
   justify-content: start;
 }
-.footer_address_list{
+.footer_address_list {
   width: 215px;
 }
 .address-icon_footer {
@@ -747,7 +742,6 @@ footer {
   background-color: var(--color-primary-dark);
   border-radius: 48px;
   overflow: auto;
-
 }
 .modal_btn_close {
   position: absolute;
